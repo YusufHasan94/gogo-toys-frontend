@@ -23,7 +23,7 @@ const Header = () => {
                     </Link>
                 </div>
             </div>
-            <div className='max-w-[1200px] mx-auto flex items-center py-12'>
+            <div className='max-w-[1240px] mx-auto flex items-center py-12'>
                 <Link href="" className='flex items-center gap-4'>
                     <Image src={gogoIcon} alt='Logo' className='' width={40}/>
                     <span className='font-bold text-xl'>Go Go<br />Toys</span>
