@@ -1,5 +1,5 @@
 'use client';
-import { Card, Rate, Tabs, TabsProps } from "antd";
+import { Rate, Tabs, TabsProps } from "antd";
 import alphabetblocks from "@/assets/toys/alphabetblocks.png"
 import breyerhorse from "@/assets/toys/breyerhorse.png"
 import cycle from "@/assets/toys/cycle.png"
@@ -14,10 +14,7 @@ import Image from "next/image";
 import "./custom.css";
 
 const Toys = () => {
-    const onChange = (key: string) => {
-        console.log(key);
-    };
-    
+   
     const toyTabs = [
         {
           key: "1",
@@ -163,7 +160,7 @@ const Toys = () => {
     }));
     
     return (
-        <div className="pt-[50px] pb-[100px] max-w-[1240px] mx-auto">
+        <div className="pt-[50px] mb-[120px] max-w-[1240px] mx-auto">
             <h2 className='text-center text-4xl font-bold'>Find the Oerfect Toy</h2>
             <div className="flex justify-center items-center pt-12">
                 <Tabs defaultActiveKey="1" items={tabItems}/>

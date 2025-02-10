@@ -31,7 +31,7 @@ const collectionData = [
 
 const Collection = () => {
     return (
-        <div className='max-w-[1240px] mx-auto mt-20 mb-[50px]'>
+        <div className='max-w-[1240px] mx-auto mt-[100px] mb-[70px]'>
             <div className='mb-[60px] flex flex-col items-center'>
                 <h2 className='text-4xl font-bold'>Find the Oerfect Toy</h2>
                 <p className='text-lg'>Our Collections</p>

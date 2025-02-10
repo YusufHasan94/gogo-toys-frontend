@@ -1,3 +1,4 @@
+import Addvertise from "@/components/home/Addvertise";
 import Collection from "@/components/home/Collection";
 import Hero from "@/components/home/Hero";
 import Toys from "@/components/home/Toys";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Collection/>
       <Toys/>
+      <Addvertise/>
     </div>
   );
 }
