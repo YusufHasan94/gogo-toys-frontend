@@ -1,0 +1,9 @@
+.ant-tabs{
+    font-family: 'Comfortaa', serif;
+}
+.ant-tabs-nav-wrap{
+    justify-content: center;
+}
+.ant-tabs-nav::before{
+    border-bottom: none!important;
+}
